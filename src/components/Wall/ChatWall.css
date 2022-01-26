@@ -1,0 +1,43 @@
+.message-space {
+  width: 100%;
+  display: inline-block;
+}
+
+.read-receipts {
+  position: relative;
+  bottom: 6px;
+}
+
+.chat-wall {
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  background-color: rgb(240, 240, 240);
+}
+
+.chatroom-title-container {
+  width: calc(100% - 36px);
+  padding: 18px;
+  text-align: center;
+}
+
+.chatroom-title {
+  color: #c93b0f;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.chatroom-subtitle {
+  color: rgb(113, 206, 7);
+  font-weight: 600;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.message-form-container {
+  position: absolute;
+  bottom: 0px;
+  width: calc(100% - 36px);
+  padding: 18px;
+  background-color: rgb(240, 240, 240);
+}
