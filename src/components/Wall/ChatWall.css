@@ -1,43 +1,53 @@
-.message-space {
+.messageSpace {
   width: 100%;
   display: inline-block;
 }
 
-.read-receipts {
+.readReceipts {
   position: relative;
   bottom: 6px;
 }
 
-.chat-wall {
+.chatWall {
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(221, 247, 241);
 }
 
-.chatroom-title-container {
+.chatroomTitleContainer {
   width: calc(100% - 36px);
   padding: 18px;
   text-align: center;
 }
 
-.chatroom-title {
-  color: #c93b0f;
+.chatroomTitle {
+  color: #050505;
   font-weight: 800;
-  font-size: 24px;
+  font-size: 26px;
 }
 
-.chatroom-subtitle {
-  color: rgb(113, 206, 7);
+.chatroomSubtitle {
+  color: rgb(250, 42, 42);
   font-weight: 600;
   font-size: 12px;
   padding-top: 4px;
 }
 
-.message-form-container {
+.formContainer {
   position: absolute;
   bottom: 0px;
   width: calc(100% - 36px);
   padding: 18px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(221, 255, 212);
+}
+
+.readReceipt {
+  width: 13px;
+  height: 13px;
+  border-radius: 13px;
+  margin: 1.5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 14px;
 }
